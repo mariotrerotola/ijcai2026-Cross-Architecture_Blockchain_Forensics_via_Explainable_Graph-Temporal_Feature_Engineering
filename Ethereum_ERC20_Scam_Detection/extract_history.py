@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
-Token Transfer Extraction System
+Token transfer extraction.
 
-Extracts ERC20 token transfers from Ethereum blockchain via Etherscan API.
-Supports checkpoint/resume functionality for large batch operations.
-
-Author: Research Team
+Extract ERC-20 token transfers from Ethereum via the Etherscan API.
+Supports checkpointing for large batch runs.
 """
 
 import pandas as pd
